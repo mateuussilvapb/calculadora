@@ -7,13 +7,15 @@ import javax.swing.JFrame;
 public class Calculadora extends JFrame {
 
     public Calculadora() {
-
         /*
         Nesse caso, tanto pode ser utilizado o "DISPOSE_ON_CLOSE" quanto o
         "EXIT_ON_CLOSE"
          */
         organizarLayout();
         setSize(232, 322);
+        /*
+        Para deixar a aplicação sem a barra de cima: setUndecorated(true);        
+         */
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         setResizable(false);
@@ -29,7 +31,7 @@ public class Calculadora extends JFrame {
         setLayout(new BorderLayout());
 
         Display display = new Display();
-        display.setPreferredSize(new Dimension(233,60));
+        display.setPreferredSize(new Dimension(233, 60));
         add(display, BorderLayout.NORTH);
 
         Teclado teclado = new Teclado();

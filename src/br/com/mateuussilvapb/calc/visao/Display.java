@@ -14,9 +14,9 @@ public class Display extends JPanel {
         setBackground(new Color(49, 49, 49));
         LABEL = new JLabel("1234,56");
         LABEL.setForeground(Color.WHITE);
-        LABEL.setFont(new Font("courier", Font.PLAIN, 30));
+        LABEL.setFont(new Font("Helvetica Neue", Font.PLAIN, 40));
 
-        setLayout(new FlowLayout(FlowLayout.RIGHT, 5, 20));
+        setLayout(new FlowLayout(FlowLayout.RIGHT, 5, 15));
         add(LABEL);
     }
 
