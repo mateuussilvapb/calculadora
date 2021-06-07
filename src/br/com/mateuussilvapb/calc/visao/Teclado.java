@@ -1,5 +1,6 @@
 package br.com.mateuussilvapb.calc.visao;
 
+import br.com.mateuussilvapb.calc.modelo.Memoria;
 import java.awt.Color;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
@@ -32,11 +33,11 @@ public class Teclado extends JPanel implements ActionListener {
         Faz com que o próximo componente ocupe três espaços do grid ao invés de
         apenas 1
          */
-        c.gridwidth = 3;
+        c.gridwidth = 2;
         //#LINHA 1
         adicionarBotao("AC", COR_CINZA_ESCURO, c, 0, 0);
         c.gridwidth = 1;
-        //adicionarBotao("+/-", COR_CINZA_ESCURO, c, 1, 0);
+        adicionarBotao("±", COR_CINZA_ESCURO, c, 2, 0);
         //adicionarBotao("%", COR_CINZA_ESCURO, c, 2, 0);
         adicionarBotao("/", COR_LARANJA, c, 3, 0);
 
@@ -78,7 +79,7 @@ public class Teclado extends JPanel implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() instanceof JButton) {
             JButton botao = (JButton) e.getSource();
-            System.out.println(botao.getText());
+            Memoria.getINSTANCIA().processarComando(botao.getText());
         }
     }
 }

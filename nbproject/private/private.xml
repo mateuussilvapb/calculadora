@@ -2,12 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/WELLIGHTON/Documents/NetBeansProjects/calculadora/src/br/com/mateuussilvapb/calc/modelo/Memoria.java</file>
-            <file>file:/C:/Users/WELLIGHTON/Documents/NetBeansProjects/calculadora/src/br/com/mateuussilvapb/calc/visao/Display.java</file>
-            <file>file:/C:/Users/WELLIGHTON/Documents/NetBeansProjects/calculadora/src/br/com/mateuussilvapb/calc/visao/Botao.java</file>
-            <file>file:/C:/Users/WELLIGHTON/Documents/NetBeansProjects/calculadora/src/br/com/mateuussilvapb/calc/visao/Teclado.java</file>
-            <file>file:/C:/Users/WELLIGHTON/Documents/NetBeansProjects/calculadora/src/br/com/mateuussilvapb/calc/visao/Calculadora.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
